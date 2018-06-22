@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="h-100 w-100">
+<head>
+	<title>Wikipedia Viewer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="h-100 w-100">
+	<div class="container-fluid h-100">
+		<div class="main row justify-content-center align-items-center h-100">
+			<div class="initial col-sm-6">
+				<div class="text-center h3 font-weight-bolded" id="title">WIKIPEDIA VIEWER</div>
+				<div class="text-center">
+					<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" id="randomArticle">Click me for a random article</a>
+				</div>
+				<div class="search text-center">
+					<input id="searchBar" class="mb-1" type="text" name="search"></br>
+					<div id="searchIcon">Cancel</div>
+				</div>
+				<div class="text-center font-weight-normal pt-2" id="help">
+					Click Enter to search
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+				<div class="contentCards col-sm-10">
+				</div>
+		</div>
+	</div>
+
+
+<script	src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script type="text/javascript" src="app.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
